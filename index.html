@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Задания</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+.task {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>Лабораторная №1</h1>
+
+<div class="task">
+  <h2>Задание 1</h2>
+  <p>Введите число: <input type="number" id="task1Input"><button onclick="task1()">Сохранить</button></p>
+  <p id="task1Result"></p>
+</div>
+
+<div class="task">
+  <h2>Задание 2</h2>
+  <p>Число 1: <input type="number" id="task2Num1"> Число 2: <input type="number" id="task2Num2"></p>
+  <p><button onclick="task2('+')">+</button> <button onclick="task2('-')">-</button> <button onclick="task2('*')">*</button> <button onclick="task2('/')">/</button></p>
+  <p id="task2Result"></p>
+</div>
+
+<div class="task">
+  <h2>Задание 3</h2>
+  <p><button onclick="task3()">Угадать число</button></p>
+  <p id="task3Result"></p>
+</div>
+
+
+<div class="task">
+  <h2>Задание 4</h2>
+  <p><button onclick="task4()">Вычислить возраст</button></p>
+  <p id="task4Result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
